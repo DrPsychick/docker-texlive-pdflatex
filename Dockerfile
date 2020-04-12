@@ -1,4 +1,4 @@
-ARG ALPINE_VERSION=latest
+ARG ALPINE_VERSION=alpine-3.9
 FROM frolvlad/alpine-glibc:$ALPINE_VERSION
 
 # credits to https://github.com/phipsgabler/docker-texlive-minimal
